@@ -1,0 +1,215 @@
+<configs>
+  <append xpath="/recipes">
+    <!-- NerdScurvy's - I Like Shapes -->
+    <recipe name="awningCTRSheet" count="1" craft_area="tablesaw">
+      <ingredient name="resourceWood" count="4" />
+      <ingredient name="resourceCloth" count="10" />
+    </recipe>
+    <recipe name="AwningRampInsideCorner" count="1" craft_area="tablesaw">
+      <ingredient name="resourceWood" count="4" />
+      <ingredient name="resourceCloth" count="10" />
+    </recipe>
+    <recipe name="AwningRampSheetCap" count="1" craft_area="tablesaw">
+      <ingredient name="resourceWood" count="4" />
+      <ingredient name="resourceCloth" count="10" />
+    </recipe>
+    <recipe name="AwningRampSheetCap2" count="1" craft_area="tablesaw">
+      <ingredient name="resourceWood" count="4" />
+      <ingredient name="resourceCloth" count="10" />
+    </recipe>
+
+    <recipe name="brickArchCurveBase" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickArchCurveFiller" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickArchCurveMiddle" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickArchCurveTop" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickArchCurveTopMiddle" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickArchCurveTopMiddleTopper" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickArchCurveWall" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickArchCurveWallCap" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickBlockBaseboard1" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickBlockBaseboard4" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickBlockBaseboardChairRail1" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickBlockBaseboardChairRail4" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickCNRRound" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickCNRRoundTop" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickCornerstone" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickCTRQuarter" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickGable" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickGable1m" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickHalf" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickHalfCentered" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickHalfCNRInside2" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickHalfRampStairs50" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickHalfRampStairs50Filler" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickPoleSCTR" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickPyramid1m" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickTubeCenter" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickTubeCorner" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickTunnelCenter" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickTunnelCorner" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickWedge" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickWedgeTip" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickWindowArchTop" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickWindowCircle" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+    <recipe name="brickWindowCircleCorner" count="1" craft_area="forge" material_based="true">
+      <ingredient name="unit_stone" count="10" />
+      <ingredient name="unit_clay" count="60" />
+    </recipe>
+
+    <recipe name="flagstoneArch3m" count="1">
+      <ingredient name="resourceCobblestones" count="4" />
+    </recipe>
+    <recipe name="flagstoneArch3m_center" count="1">
+      <ingredient name="resourceCobblestones" count="4" />
+    </recipe>
+    <recipe name="flagstoneArch3m_tip" count="1">
+      <ingredient name="resourceCobblestones" count="4" />
+    </recipe>
+    <recipe name="flagstoneGable" count="1">
+      <ingredient name="resourceCobblestones" count="4" />
+    </recipe>
+    <recipe name="flagstoneStairs50" count="1">
+      <ingredient name="resourceCobblestones" count="4" />
+    </recipe>
+	
+	<recipe name="window02" count="1">
+	  <ingredient name="resourceWood" count="4"/>
+	</recipe>	
+	
+	<recipe name="woodBlockBaseboard1" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>	
+	<recipe name="woodBlockBaseboard4" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>	
+	<recipe name="woodBlockBaseboardChairRail1" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>	
+	<recipe name="woodBlockBaseboardChairRail4" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>	
+
+	<recipe name="woodCrown" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>	
+	<recipe name="woodCrownInsideCorner" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>		
+
+	<recipe name="woodWindowTrim" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>		
+	<recipe name="woodWindowTrimBottom" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>		
+	<recipe name="woodWindowTrimSides" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>		
+	<recipe name="woodWindowTrimTop" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>		
+	<recipe name="woodWindowTrimTopFancy" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>		
+	
+  </append>
+</configs>

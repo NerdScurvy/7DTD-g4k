@@ -1,0 +1,90 @@
+<configs>
+  <append xpath="/blocks">
+
+    <block name="carEgg">
+    	<property name="CustomIcon" value="cntCar03SedanDamage2"/>
+    	<property name="Material" value="Mstone"/>
+    	<property name="MaxDamage" value="500"/>
+    	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+    	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+    	<property name="Mesh" value="models"/>
+    	<property name="Model" value="Rocks/Rock01" param1="main_mesh"/>
+    	<property name="OnlySimpleRotations" value="true"/>
+    	<property name="ImposterDontBlock" value="true"/>
+    	<property name="IsTerrainDecoration" value="true"/>
+    	<property name="Class" value="PlantGrowing"/>
+    	<property name="PlantGrowing.Next" value="carsRandomHelper"/>
+    	<property name="PlantGrowing.GrowthRate" value="1600"/> <!-- setting 1 is erratic. Recommend 2+ for testing or use -->
+    	<property name="PlantGrowing.FertileLevel" value="0"/>
+    	<property name="PlantGrowing.IsRandom" value="true"/>
+    	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+    	<drop event="Destroy" count="0"/>
+    	<property name="FilterTags" value="foutdoor"/>
+    </block>
+
+    <block name="rockEgg">
+    	<property name="Extends" value="carEgg"/>
+    	<property name="Model" value="Rocks/Rock04" param1="main_mesh"/>
+    	<property name="PlantGrowing.Next" value="rockResource"/>
+    	<property name="PlantGrowing.GrowthRate" value="1000"/>
+    </block>
+
+
+    <block name="rockEgg02">
+    	<property name="Extends" value="carEgg"/>
+    	<property name="Model" value="Rocks/Rock04" param1="main_mesh"/>
+    	<property name="PlantGrowing.Next" value="rockResource02"/>
+    	<property name="PlantGrowing.GrowthRate" value="1000"/>
+    </block>
+
+    <block name="busEggSchool">
+    	<property name="Extends" value="carEgg"/>
+    	<property name="PlantGrowing.Next" value="cntBusSchool"/>
+    </block>
+
+    <block name="busEggSchoolShort">
+    	<property name="Extends" value="carEgg"/>
+    	<property name="PlantGrowing.Next" value="cntBusSchoolShort"/>
+    </block>
+
+    <block name="busEggShuttle">
+    	<property name="Extends" value="carEgg"/>
+    	<property name="PlantGrowing.Next" value="cntBusShuttle"/>
+    </block>
+
+    <block name="busEggCity">
+    	<property name="Extends" value="carEgg"/>
+    	<property name="PlantGrowing.Next" value="cntBusCity"/>
+    </block>
+
+  </append>
+
+  <append xpath="/blocks/block[@name='rockResourceBroke2']">
+    <property name="DowngradeBlock" value="rockEgg"/>
+  </append>
+
+  <append xpath="/blocks/block[@name='rockResource02Broke2']">
+    <property name="DowngradeBlock" value="rockEgg02"/>
+  </append>
+
+  <append xpath="/blocks/block[@name='cntCar03SedanDamage2']">
+    <property name="DowngradeBlock" value="carEgg"/>
+  </append>
+
+  <append xpath="/blocks/block[@name='cntBusSchool']">
+    <property name="DowngradeBlock" value="busEggSchool"/>
+  </append>
+
+  <append xpath="/blocks/block[@name='cntBusSchoolShort']">
+    <property name="DowngradeBlock" value="busEggSchoolShort"/>
+  </append>
+
+  <append xpath="/blocks/block[@name='cntBusShuttle']">
+    <property name="DowngradeBlock" value="busEggShuttle"/>
+  </append>
+
+  <append xpath="/blocks/block[@name='cntBusCity']">
+    <property name="DowngradeBlock" value="busEggCity"/>
+  </append>
+
+</configs>

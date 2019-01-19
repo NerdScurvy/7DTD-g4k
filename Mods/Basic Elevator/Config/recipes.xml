@@ -1,0 +1,11 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="Basic Elevator" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="500" />
+			<ingredient name="resourceSpring" count="10" />
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="resourceForgedSteel" count="30"/>
+		</recipe>
+	</append>
+</configs>

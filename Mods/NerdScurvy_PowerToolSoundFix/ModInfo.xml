@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Nerd's chainsaw and auger sound fix mod" />
+        <Description value="This modlet removes soundloop from chainsaws and augers" />
+        <Author value="NerdScurvy" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

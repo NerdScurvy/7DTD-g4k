@@ -1,0 +1,5 @@
+<configs>
+	<append xpath="/blocks/block[@name='treeAzalea']">
+	    <property name="ModelOffset" value="0,0,0"/>
+	</append>
+</configs>

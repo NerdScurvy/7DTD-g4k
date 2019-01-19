@@ -1,0 +1,41 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="FoldingGarageDoor">
+			<property name="Class" value="DoorSecure"/>
+			<property name="CustomIcon" value="garageDoorHouse"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="MaxDamage" value="1300"/> <!-- need higher hit points to account for their area -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Tag" value="Door"/>
+			<property name="Model" value="Entities/Doors/garage_house_testPrefab"/><property name="ModelOffset" value="0,0,0"/>
+			<property name="Mesh-Damage-1" value="Door/Box1"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="5,3,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="43"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="OpenSound" value="open_garage_door"/>
+			<property name="CloseSound" value="close_garage_door"/>
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="240"/>
+				<property name="resourceMechanicalParts" value="12"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="90" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Destroy" name="resourceSpring" count="1,2" prob="1" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceMechanicalParts" count="2,7" prob="1" tag="salvageHarvest"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="garageDoorMetalGroupDesc"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="FilterTags" value="fdecor,fdoors"/>
+			<property name="SortOrder1" value="7060"/>
+			<property name="SortOrder2" value="0400"/> <!-- SortDoors -->
+		</block>
+
+	</append>
+</configs>

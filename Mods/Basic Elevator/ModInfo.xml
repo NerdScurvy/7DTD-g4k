@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Basic Elevator" />
+		<Description value="Basic elevator that doesn't require sdx" />
+		<Author value="308" />
+		<Version value="v0.01" />
+		<Website value="" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,17 @@
+<configs>
+	<!-- Remove chainsaw and auger looping sounds -->
+  <remove xpath="/items/item[@name='meleeToolChainsaw']/property[@class='Action0']/property[@name='Sound_start']"/>
+  <remove xpath="/items/item[@name='meleeToolChainsaw']/property[@class='Action0']/property[@name='Sound_repeat']"/>
+  <remove xpath="/items/item[@name='meleeToolChainsaw']/property[@class='Action0']/property[@name='Sound_end']"/>
+  <append xpath="/items/item[@name='meleeToolChainsaw']/property[@class='Action0']">
+    <property name="Sound_start" value=""/>
+  </append>
+
+  <remove xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_start']"/>
+  <remove xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_repeat']"/>
+  <remove xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_end']"/>
+  <append xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']">
+    <property name="Sound_start" value=""/>
+  </append>
+
+</configs>

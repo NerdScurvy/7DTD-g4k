@@ -1,0 +1,71 @@
+<configs>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='modMeleeT3']">
+		<lootgroup name="modBatsT1"> 
+			<item name="modHoeBat"/>
+			<item name="modPickBat"/>
+			<item name="modBarbedBat"/>
+			<item name="modNailedBat"/>
+			<item name="modSmallGearBat"/>
+			<item name="modPommelPantherBat"/>					
+		</lootgroup>
+		<lootgroup name="modBatsT2"> 
+			<item name="modCrownBat"/>
+			<item name="modNautilusBat"/>
+			<item name="modMaceBat"/>
+			<item name="modKanaboBat"/>
+			<item name="modWeightGearBat"/>
+			<item name="modGripLeatherBat"/>					
+		</lootgroup>
+		<lootgroup name="modBatsT3">
+			<item name="modBeanCanBat"/>
+			<item name="modAxeBat"/>
+			<item name="modSpeedBallBat"/>
+			<item name="modBurningBat"/>
+			<item name="modSparkyBat"/>					
+			<item name="modPommelHoundBat"/>
+			<item name="modGripRubberBat"/>						
+		</lootgroup>
+	</insertAfter>
+	<append xpath="/lootcontainers/lootgroup[@name='modAllT1']">
+		<item group="modBatsT1" count="1" prob="0.05" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='modAllT2']" >
+		<item group="modBatsT2" count="1" prob="0.05"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='modAllT3']">
+		<item group="modBatsT3"  count="1" prob="0.05"/>
+	</append>
+		<append xpath="/lootcontainers/lootgroup[@name='commonBooks']">
+			<item name="modBarbedBatSchematic" prob="0.25"/>
+			<item name="modNailedBatSchematic" prob="0.25"/>
+			<item name="modSmallGearBatSchematic" prob="0.25"/>
+			<item name="modPommelPantherBatSchematic" prob="0.25"/>	
+			<item name="meleeWoodBatSchematic" prob="0.35"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='rareBooks']">
+			<item name="modCrownBatSchematic" prob="0.25"/>
+			<item name="modNautilusBatSchematic" prob="0.25"/>
+			<item name="modMaceBatSchematic" prob="0.25"/>
+			<item name="modKanaboBatSchematic" prob="0.25"/>
+			<item name="modWeightGearBatSchematic" prob="0.25"/>
+			<item name="modGripLeatherBatSchematic" prob="0.25"/>	
+			<item name="modBeanCanBatSchematic" prob="0.25"/>
+			<item name="modAxeBatSchematic" prob="0.25"/>
+			<item name="modSpeedBallBatSchematic" prob="0.25"/>
+			<item name="modBurningBatSchematic" prob="0.25"/>
+			<item name="modSparkyBatSchematic" prob="0.25"/>					
+			<item name="modPommelHoundBatSchematic" prob="0.25"/>
+			<item name="modGripRubberBatSchematic" prob="0.25"/>
+			<item name="SalvagedLatheSchematic" prob="0.35"/>
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='weaponsMelee']">
+		<item name="meleeWoodBat" mods="head,sweetspot,effects,grip,pommel" mod_chance="0.50"/> 
+		<item name="meleeAluminumBat" mods="head,sweetspot,effects,grip,pommel" mod_chance="0.50"/> 
+		<item name="MeleeBatLegendarySawBat" prob="0.05"/>
+	</append>	
+	<append xpath="/lootcontainers/lootgroup[@name='junk']">
+		<item name="meleeWoodBat" mods="head,sweetspot,effects,grip,pommel" mod_chance="0.25" prob="0.002"/> 
+		<item name="meleeAluminumBat" mods="head,sweetspot,effects,grip,pommel" mod_chance="0.25"  prob="0.001"/>
+	</append>	
+</configs> 

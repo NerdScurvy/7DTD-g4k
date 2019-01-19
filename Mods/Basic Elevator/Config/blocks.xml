@@ -1,0 +1,36 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="Basic Elevator">
+			<property name="Class" value="DoorSecure"/>
+			<property name="MaxDamage" value="3000"/>
+			<property name="CustomIcon" value="metalCatwalk"/>
+			<property name="Material" value="MmetalNoGlue"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="TakeDelay" value="15"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/ElevatorNoSDX.unity3d?BasicElevatorPrefab" />
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="3,11,3"/>
+			<property name="Tag" value="Door"/>
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="Place" value="Door"/>
+			<property name="OpenSound" value=""/>
+			<property name="CloseSound" value=""/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,Science"/>
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="10"/>
+				<property name="resourceMechanicalParts" value="5"/>
+				<property name="resourceWood" value="50"/>
+			</property>		
+			<drop event="Harvest" name="resourceScrapIron" count="100" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="8" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="6" prob="0.75" stick_chance="1"/>	
+		</block>
+	</append>
+</configs>
