@@ -1,0 +1,155 @@
+<configs>
+	<append xpath="/items">
+
+		<item name="dismantle9mmBullets30">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle9mmBullets" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="9mmDismantle30" />
+			</property>
+		</item>
+
+		<item name="dismantle9mmSteelBullets30">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle9mmBullets" />
+			<property name="CustomIconTint" value="a0a0ff"/>
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="9mmSteelDismantle30" />
+			</property>
+		</item>
+
+
+		<item name="dismantle44MagBullets30">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle44MagBullets" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="44MagDismantle30" />
+			</property>
+		</item>
+		
+		<item name="dismantle44MagSteelBullets30">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle44MagBullets" />
+			<property name="CustomIconTint" value="a0a0ff"/>
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="44MagSteelDismantle30" />
+			</property>
+		</item>		
+		
+		<item name="dismantle762mmBullets30">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle762mmBullets" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="762mmDismantle30" />
+			</property>
+		</item>
+
+		<item name="dismantle762mmSteelBullets30">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle762mmBullets" />
+			<property name="CustomIconTint" value="a0a0ff"/>
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="762mmSteelDismantle30" />
+			</property>
+		</item>
+		
+		<item name="dismantleShotgunShells30">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantleShotgunShells" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="ShotgunShellDismantle30" />
+			</property>
+		</item>
+
+		<item name="dismantleShotgunSlugs30">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantleShotgunSlugs" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="ShotgunSlugDismantle30" />
+			</property>
+		</item>		
+		
+		<item name="dismantle9mmBullets10">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle9mmBullets" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="9mmDismantle10" />
+			</property>
+		</item>
+		
+		<item name="dismantle9mmSteelBullets10">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle9mmBullets" />
+			<property name="CustomIconTint" value="a0a0ff"/>
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="9mmSteelDismantle10" />
+			</property>
+		</item>
+		
+		<item name="dismantle44MagBullets10">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle44MagBullets" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="44MagDismantle10" />
+			</property>
+		</item>
+		<item name="dismantle44MagSteelBullets10">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle44MagBullets" />
+			<property name="CustomIconTint" value="a0a0ff"/>
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="44MagSteelDismantle10" />
+			</property>
+		</item>
+		
+		<item name="dismantle762mmBullets10">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle762mmBullets" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="762mmDismantle10" />
+			</property>
+		</item>
+
+		<item name="dismantle762mmSteelBullets10">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantle762mmBullets" />
+			<property name="CustomIconTint" value="a0a0ff"/>
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="762mmSteelDismantle10" />
+			</property>
+		</item>
+		
+
+		<item name="dismantleShotgunShells10">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantleShotgunShells" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="ShotgunShellDismantle10" />
+			</property>
+		</item>
+
+		<item name="dismantleShotgunSlugs10">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="dismantleShotgunSlugs" />
+			<property name="DescriptionKey" value="dismantleammo"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="ShotgunSlugsDismantle10" />
+			</property>
+		</item>		
+	</append>
+</configs>

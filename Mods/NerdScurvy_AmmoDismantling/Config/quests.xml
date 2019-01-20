@@ -1,0 +1,842 @@
+<config>
+  <append xpath="/quests">
+
+	<quest id="9mmDismantle10">
+		<property name="name" value="Dismantle 9MM Bullets" />
+		<property name="subtitle" value="Dismantle 9MM Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="name_key" value="Turn In Quest" />
+		<property name="subtitle_key" value="Talk to Trader" />
+		<property name="description_key" value="challenge_givemeaz_offer" />		
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasing" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="1" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="1" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="1" />
+	</quest>
+
+	
+	<quest id="9mmSteelDismantle10">
+		<property name="name" value="Dismantle 9MM Steel Bullets" />
+		<property name="subtitle" value="Dismantle 9MM Steel Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" /> <!-- 10 -->
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="1" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="1" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="1" />
+	</quest>
+
+	<quest id="44MagDismantle10">
+		<property name="name" value="Dismantle 44Mag Bullets" />
+		<property name="subtitle" value="Dismantle 44Mag Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasing" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="1" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />		
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="1" />
+	</quest>	
+	
+	<quest id="44MagSteelDismantle10">
+		<property name="name" value="Dismantle 44Mag Steel Bullets" />
+		<property name="subtitle" value="Dismantle 44Mag Steel Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="1" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="1" />
+	</quest>	
+	
+	<quest id="762mmDismantle10">
+		<property name="name" value="Dismantle 7.62MM Bullets" />
+		<property name="subtitle" value="Dismantle 7.62MM Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasing" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="1" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="1" />
+	</quest>		
+	
+	<quest id="762mmSteelDismantle10">
+		<property name="name" value="Dismantle 7.62MM Steel Bullets" />
+		<property name="subtitle" value="Dismantle 7.62MM Steel Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="1" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="1" />
+	</quest>		
+	
+	<quest id="ShotgunShellDismantle10">
+		<property name="name" value="Dismantle Shotgun shells" />
+		<property name="subtitle" value="Dismantle Shotgun shells" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBuckshot" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="1" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 20 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="2" />
+		<reward type="Item" id="resourcePaper" value="3" /><!-- 10 -->
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="1" />
+	</quest>		
+	
+	<quest id="ShotgunSlugDismantle10">
+		<property name="name" value="Dismantle Shotgun slugs" />
+		<property name="subtitle" value="Dismantle Shotgun shells" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceScrapLead" value="3" /><!-- 80 -->
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="2" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 40 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="1" />
+		<reward type="Item" id="resourceScrapBrass" value="3" /><!-- 50 -->
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="2" />
+	</quest>		
+	
+	<quest id="9mmDismantle30">
+		<property name="name" value="Dismantle 9MM Bullets" />
+		<property name="subtitle" value="Dismantle 9MM Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasing" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+	</quest>	
+	
+	<quest id="9mmSteelDismantle30">
+		<property name="name" value="Dismantle 9MM Steel Bullets" />
+		<property name="subtitle" value="Dismantle 9MM Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+	</quest>	
+	
+	<quest id="44MagDismantle30">
+		<property name="name" value="Dismantle 44Mag Bullets" />
+		<property name="subtitle" value="Dismantle 44Mag Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasing" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 90 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+	</quest>	
+	
+	<quest id="44MagSteelDismantle30">
+		<property name="name" value="Dismantle 44Mag Steel Bullets" />
+		<property name="subtitle" value="Dismantle 44Mag Steel Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 90 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+	</quest>		
+	
+	<quest id="762mmDismantle30">
+		<property name="name" value="Dismantle 7.62MM Bullets" />
+		<property name="subtitle" value="Dismantle 7.62MM Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasing" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceBulletCasing" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 90 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+	</quest>		
+	
+	<quest id="762mmSteelDismantle30">
+		<property name="name" value="Dismantle 7.62MM Steel Bullets" />
+		<property name="subtitle" value="Dismantle 7.62MM Steel Bullets" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceBulletCasingSteel" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 90 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+		<reward type="Item" id="resourceBulletTip" value="3" />
+	</quest>		
+	
+	<quest id="ShotgunShellDismantle30">
+		<property name="name" value="Dismantle Shotgun shells" />
+		<property name="subtitle" value="Dismantle Shotgun shells" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceBuckshot" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceBuckshot" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 60 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" /><!-- 30 -->
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+		<reward type="Item" id="resourcePaper" value="3" />
+	</quest>		
+	
+	<quest id="ShotgunSlugDismantle30">
+		<property name="name" value="Dismantle Shotgun slugs" />
+		<property name="subtitle" value="Dismantle Shotgun slugs" />
+		<property name="description" value="Dismantle your ammo to get their raw components." />
+		<property name="offer" value="You've dismantled some ammo for its raw materials." />
+		<property name="icon" value="ui_game_symbol_hammer" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />		
+		<property name="completiontype" value="AutoComplete" />
+		<reward type="Item" id="resourceScrapLead" value="3" /><!-- 240 -->
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+		<reward type="Item" id="resourceScrapLead" value="3" />
+
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 120 -->
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" /><!-- 150 -->
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="2" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="2" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="3" />
+		<reward type="Item" id="resourceScrapBrass" value="2" />
+	</quest>	
+	
+  </append>	
+</config>

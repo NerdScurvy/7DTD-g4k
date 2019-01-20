@@ -1,0 +1,68 @@
+<configs>
+	<append xpath="/recipes" >
+		<recipe name="dismantle9mmBullets10" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo9mmBullet" count="10"/>
+		</recipe>
+		
+		<recipe name="dismantle9mmSteelBullets10" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo9mmBulletSteel" count="10"/>
+		</recipe>
+
+		<recipe name="dismantle44MagBullets10" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo44MagnumBullet" count="10"/>
+		</recipe>
+
+		<recipe name="dismantle44MagSteelBullets10" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletSteel" count="10"/>
+		</recipe>
+
+		<recipe name="dismantle762mmBullets10" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo762mmBulletAP" count="10"/>
+		</recipe>
+
+		<recipe name="dismantle762mmSteelBullets10" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo762mmBulletFMJSteel" count="10"/>
+		</recipe>
+
+		<recipe name="dismantleShotgunShells10" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammoShotgunShell" count="10"/>
+		</recipe>
+		
+		<recipe name="dismantleShotgunSlugs10" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammoShotgunSlug" count="10"/>
+		</recipe>
+		
+		<recipe name="dismantle9mmBullets30" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo9mmBullet" count="30"/>
+		</recipe>
+
+		<recipe name="dismantle9mmSteelBullets30" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo9mmBulletSteel" count="30"/>
+		</recipe>
+		
+		<recipe name="dismantle44MagBullets30" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo44MagnumBullet" count="30"/>
+		</recipe>
+		
+		<recipe name="dismantle44MagSteelBullets30" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletSteel" count="30"/>
+		</recipe>
+		
+		<recipe name="dismantle762mmBullets30" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo762mmBulletAP" count="30"/>
+		</recipe>
+		
+		<recipe name="dismantle762mmSteelBullets30" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammo762mmBulletFMJSteel" count="30"/>
+		</recipe>
+		
+		<recipe name="dismantleShotgunShells30" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammoShotgunShell" count="30"/>
+		</recipe>
+
+		<recipe name="dismantleShotgunSlugs30" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workbench">
+			<ingredient name="ammoShotgunSlug" count="30"/>
+		</recipe>		
+		
+	</append>
+</configs>
