@@ -1046,7 +1046,7 @@
 		<reward type="Item" id="resourceBulletTip" value="1" />		
 	</quest>
 	
-	<quest id="40BulletsDismantle10">
+	<quest id="40BulletsDismantle20">
 		<property name="name" value="Dismantle 40 cal Bullets" />
 		<property name="subtitle" value="Dismantle 40 cal Bullets" />
 		<property name="description" value="Dismantle your ammo to get their raw components." />
