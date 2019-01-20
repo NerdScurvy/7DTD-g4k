@@ -49,7 +49,7 @@
 			<property name="HeatMapTime" value="120"/> 
 			<property name="HeatMapFrequency" value="15"/>
 			<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
-			<property name="CanPickup" value="true" param1="ConstructionLight" />
+			<property name="CanPickup" value="true" param1="PlaceableConstructionLight" />
 			<drop event="Destroy" name="resourceScrapIron" count="1" prob="1"/>	
 			<property name="Group" value="Basics,Building"/>
 			<property name="DescriptionKey" value="torchGroupDesc"/>
