@@ -1,0 +1,211 @@
+<configs>
+	<append xpath="/blocks">	
+		<block name="toySealBlue">
+			<property name="Material" value="Mcloth"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="false"/> 
+			<property name="CanPickup" value="true" /> 
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToySealBlue" />
+			<property name="CustomIcon" value="toySealBlue" />
+		</block>
+		<block name="toySealPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToySealPink" />
+			<property name="CustomIcon" value="toySealPink" />
+		</block>		
+		<block name="toySealBrown">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToySealBrown" />
+			<property name="CustomIcon" value="toySealBrown" />
+		</block>		
+
+		
+		<block name="toyElephantBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyElephantBlack" />
+			<property name="CustomIcon" value="toyElephantBlack" />
+		</block>
+		<block name="toyElephantBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyElephantBlue" />
+			<property name="CustomIcon" value="toyElephantBlue" />
+		</block>
+		<block name="toyElephantPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyElephantPink" />
+			<property name="CustomIcon" value="toyElephantPink" />
+		</block>
+
+		
+		<block name="toyFoxOrange">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFoxOrange" />
+			<property name="CustomIcon" value="toyFoxOrange" />
+		</block>
+		<block name="toyFoxPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFoxPink" />
+			<property name="CustomIcon" value="toyFoxPink" />
+		</block>
+		<block name="toyFoxBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFoxBlack" />
+			<property name="CustomIcon" value="toyFoxBlack" />
+		</block>
+		
+		
+		<block name="toyGiraffeBrown">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyGiraffeBrown" />
+			<property name="CustomIcon" value="toyGiraffeBrown" />
+		</block>
+		<block name="toyGiraffeBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyGiraffeBlue" />
+			<property name="CustomIcon" value="toyGiraffeBlue" />
+		</block>
+		<block name="toyGiraffePink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyGiraffePink" />
+			<property name="CustomIcon" value="toyGiraffePink" />
+		</block>
+		
+		
+		<block name="toyCrocodilePink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyCrocodilePink" />
+			<property name="CustomIcon" value="toyCrocodilePink" />
+		</block>
+		<block name="toyCrocodileGreen">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyCrocodileGreen" />
+			<property name="CustomIcon" value="toyCrocodileGreen" />
+		</block>
+		<block name="toyCrocodileBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyCrocodileBlue" />
+			<property name="CustomIcon" value="toyCrocodileBlue" />
+		</block>		
+
+		
+		<block name="toyDogPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDogPink" />
+			<property name="CustomIcon" value="toyDogPink" />
+		</block>		
+		<block name="toyDogYellow">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDogYellow" />
+			<property name="CustomIcon" value="toyDogYellow" />
+		</block>	
+		<block name="toyDogBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDogBlack" />
+			<property name="CustomIcon" value="toyDogBlack" />
+		</block>	
+
+		
+		<block name="toyDolphinBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDolphinBlack" />
+			<property name="CustomIcon" value="toyDolphinBlack" />
+		</block>		
+		<block name="toyDolphinBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDolphinBlue" />
+			<property name="CustomIcon" value="toyDolphinBlue" />
+		</block>		
+		<block name="toyDolphinPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDolphinPink" />
+			<property name="CustomIcon" value="toyDolphinPink" />
+		</block>		
+
+		
+		<block name="toyLionPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyLionPink" />
+			<property name="CustomIcon" value="toyLionPink" />
+		</block>		
+		<block name="toyLionBrown">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyLionBrown" />
+			<property name="CustomIcon" value="toyLionBrown" />
+		</block>
+		<block name="toyLionBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyLionBlue" />
+			<property name="CustomIcon" value="toyLionBlue" />
+		</block>		
+		
+		
+		<block name="toyFrogBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFrogBlue" />
+			<property name="CustomIcon" value="toyFrogBlue" />
+		</block>	
+		<block name="toyFrogGreen">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFrogGreen" />
+			<property name="CustomIcon" value="toyFrogGreen" />
+		</block>	
+		<block name="toyFrogPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFrogPink" />
+			<property name="CustomIcon" value="toyFrogPink" />
+		</block>	
+		
+		
+		<block name="toyMousePink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyMousePink" />
+			<property name="CustomIcon" value="toyMousePink" />
+		</block>			
+		<block name="toyMouseGrey">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyMouseGrey" />
+			<property name="CustomIcon" value="toyMouseGrey" />
+		</block>			
+		<block name="toyMouseBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyMouseBlack" />
+			<property name="CustomIcon" value="toyMouseBlack" />
+		</block>			
+		
+	</append>
+</configs>

@@ -1546,7 +1546,7 @@
 		<reward type="Item" id="resourceBulletCasing" value="3" />
 		<reward type="Item" id="resourceBulletCasing" value="3" />
 		<reward type="Item" id="resourceBulletCasing" value="3" />
-		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 40 -->
+		<reward type="Item" id="resourceGunPowder" value="3" /><!-- 60 -->
 		<reward type="Item" id="resourceGunPowder" value="3" />
 		<reward type="Item" id="resourceGunPowder" value="3" />
 		<reward type="Item" id="resourceGunPowder" value="3" />
@@ -1559,7 +1559,13 @@
 		<reward type="Item" id="resourceGunPowder" value="3" />
 		<reward type="Item" id="resourceGunPowder" value="3" />
 		<reward type="Item" id="resourceGunPowder" value="3" />
-		<reward type="Item" id="resourceGunPowder" value="1" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
+		<reward type="Item" id="resourceGunPowder" value="3" />
 		<reward type="Item" id="resourceBulletTip" value="3" /><!-- 30 -->
 		<reward type="Item" id="resourceBulletTip" value="3" />
 		<reward type="Item" id="resourceBulletTip" value="3" />
