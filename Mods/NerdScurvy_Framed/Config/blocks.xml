@@ -49,7 +49,32 @@
 			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
 			<drop event="Destroy" count="1" name="paintingMonarch"/>
 		</block>	
-
+		<block name="paintingSunset">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingSunset" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingSunset" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingSunset"/>
+		</block>	
+		<block name="paintingAmericanGothic">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingAmericanGothic" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingAmericanGothic" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingAmericanGothic"/>
+		</block>	
+		<block name="paintingHorse">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingHorse" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingHorse" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingHorse"/>
+		</block>	
+		
+		
 		<block name="hiddenSafePaintingLeaf">
 			<property name="Extends" value="paintingLeaf"/>
 			<property name="CreativeMode" value="Player"/>
@@ -87,6 +112,25 @@
 		
 		<block name="hiddenSafePaintingMonarch">
 			<property name="Extends" value="paintingMonarch"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+
+		<block name="hiddenSafePaintingSunset">
+			<property name="Extends" value="paintingSunset"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+		<block name="hiddenSafePaintingAmericanGothic">
+			<property name="Extends" value="paintingAmericanGothic"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+		<block name="hiddenSafePaintingHorse">
+			<property name="Extends" value="paintingHorse"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
 			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
