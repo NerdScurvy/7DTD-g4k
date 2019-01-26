@@ -19,4 +19,9 @@
 	  <item name="gothicPants" prob="0.5"/>
    </append>
   
+  
+   <setattribute xpath="/traders/trader_info[@id='1']" name="min_inventory">60</setattribute>
+   <setattribute xpath="/traders/trader_info[@id='1']" name="max_inventory">150</setattribute>
+   <setattribute xpath="/traders/trader_info[@id='1']" name="max_items_swapped">50</setattribute>
+   <setattribute xpath="/traders/trader_info[@id='1']" name="open_time">4:05</setattribute>
 </configs>

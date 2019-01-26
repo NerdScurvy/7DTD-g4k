@@ -1,0 +1,49 @@
+<configs>
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='empty']"> 
+		<lootgroup name="commonSchematicsModGun" count="1">
+			<item name="modGunBarrelExtenderSchematic"/>
+			<item name="modGunMuzzleBrakeSchematic"/>
+			<item name="modGunSoundSuppressorSilencerSchematic"/>
+			<item name="modGunLaserSightSchematic"/>
+			<item name="modGunFlashlightSchematic"/>
+			<item name="modGunScopeSmallSchematic"/>
+			<item name="modGunScopeMediumSchematic"/>
+			<item name="modGunScopeLargeSchematic"/>
+			<item name="modGunReflexSightSchematic"/>
+			<item name="modGunTriggerGroupSemiSchematic"/>
+			<item name="modGunTriggerGroupBurstSchematic"/>
+			<item name="modGunTriggerGroupAutomaticSchematic"/>
+			<item name="modGunRodAndSpringSchematic"/>
+			<item name="modGunBipodSchematic"/>
+			<item name="modGunForegripSchematic"/>
+			<item name="modGunRetractingStockSchematic"/>
+			<item name="modGunDuckbillSchematic"/>
+			<item name="modGunChokeSchematic"/>
+			<item name="modGunMagazineExtenderSchematic"/>
+			<item name="modShotgunSawedOffBarrelSchematic"/>
+			<item name="modGunCrippleEmSchematic"/>
+			<item name="modGunBowPolymerStringSchematic"/>
+			<item name="modGunMeleeRadRemoverSchematic"/>
+		</lootgroup>	
+	</insertAfter>
+
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='9']"> <!-- Backpacks -->
+		<item group="commonSchematicsModGun" count="1" prob="0.05"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='42']"> <!-- Gunsafe -->
+		<item group="commonSchematicsModGun" count="1" prob="0.35"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='50']"> <!-- shotgun Messiah -->
+		<item group="commonSchematicsModGun" count="1" prob="0.5"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']"> <!-- Lockers -->
+		<item group="commonSchematicsModGun" count="1" prob="0.7"/>
+	</append>
+
+	
+</configs>
