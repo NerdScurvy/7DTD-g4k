@@ -146,7 +146,7 @@
       <property name="CustomIcon" value="dismantleShotgunSlugs" />
       <property name="DescriptionKey" value="dismantleammo" />
       <property class="Action0">
-        <property name="QuestGiven" value="ShotgunSlugsDismantle10" />
+        <property name="QuestGiven" value="ShotgunSlugDismantle10" />
       </property>
     </item>
 

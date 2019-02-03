@@ -1,3 +1,4 @@
+shutdown
 <config>
   <append xpath="/quests">
 	<quest id="learnLights">

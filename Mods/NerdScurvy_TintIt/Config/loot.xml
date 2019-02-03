@@ -1,0 +1,19 @@
+<configs>
+
+	<set xpath="/lootcontainers/lootgroup[@name='cupboard']/item[@group='dyes']/@prob">0.2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='workingStiffs']/item[@group='dyes']/@prob">0.3</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='12']/item[@group='dyes']/@prob">0.2</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='15']/item[@group='dyes']/@prob">0.1</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='22']/item[@group='dyes']/@prob">0.01</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='114']/item[@group='dyes']/@prob">0.08</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='115']/item[@group='dyes']/@prob">0.08</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='116']/item[@group='dyes']/@prob">0.08</set>
+
+	
+	<append xpath="/lootcontainers/lootgroup[@name='dyes']">
+		<item name="modDyePurple"/>
+		<item name="modDyeOrange"/>
+		<item name="modDyeYellow"/>
+	</append>
+	
+</configs>
