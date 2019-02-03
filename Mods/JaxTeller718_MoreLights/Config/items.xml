@@ -1,0 +1,12 @@
+<configs>
+  <append xpath="/items">
+    <item name="LetThereBeLight">
+      <property name="Extends" value="challengeQuestMaster" />
+      <property name="DescriptionKey" value="LetThereBeLight" />
+      <property class="Action0">
+        <property name="QuestGiven" value="learnLights" />
+      </property>
+    </item>
+  </append>
+</configs>
+	
