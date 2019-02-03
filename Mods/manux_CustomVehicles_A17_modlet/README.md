@@ -1,10 +1,13 @@
 <!--Read this in github to have all the visuals and formatting: https://github.com/manux32/7d2d_A17_sdx_mods/tree/master/manux_CustomVehicles_A17_modlet-->
 
 # A17 Custom Vehicles modlet
-| ![img](ItemIcons/manux_RoadHog.png) | ![img](ItemIcons/manux_HellGoatBike.png) | ![img](ItemIcons/manux_Quad.png) | ![img](ItemIcons/manux_CicadaCar.png) | ![img](ItemIcons/manux_HP4x4Truck.png) |  
-|:---:|:---:|:---:|:---:|:---:|  
-| Dust2Death's Road Hog | Hell Goat Bike | Quad | Cicada Car | HP 4x4 Truck |  
-  
+| ![img](ItemIcons/manux_RoadHog.png) | ![img](ItemIcons/manux_HellGoatBike.png) | ![img](ItemIcons/manux_Quad.png) | ![img](ItemIcons/manux_CicadaCar.png) | ![img](ItemIcons/manux_HP4x4Truck.png) | ![img](ItemIcons/manux_MonsterBeetle.png) |  
+|:---:|:---:|:---:|:---:|:---:|:---:|  
+| Dust2Death's Road Hog | Hell Goat Bike | Quad | Cicada Car | HP 4x4 Truck | Monster Beetle |  
+
+| ![img](ItemIcons/manux_MonoHog.png) | ![img](ItemIcons/manux_PedalGyro.png) | ![img](ItemIcons/manux_JetPack.png) | ![img](ItemIcons/manux_HelicopterOH58.png) |   
+|:---:|:---:|:---:|:---:|  
+| Mono-Hog | Pedal Gyro | Jet Pack | Helicopter OH-58 |  
 
 This is currently an XML-only A17 modlet that features some of my [**A16 Custom Vehicles**](https://github.com/manux32/7dtdSdxMods/tree/master/Manux_CustomVehicles).  
 It does not contain all the features I have in my A16 mod. I will not port my full Custom Vehicles mod until A17 stable ships.  
@@ -22,15 +25,20 @@ But TFP implemented so many of the features that I have in my A16 mod, that you 
 
 # Installation
 You can simply place this modlet in the Mods folder of your A17 installation.  
+The relative path should look something like this: ___"...\7 Days To Die\Mods\manux_CustomVehicles_A17_modlet"___  
 I don't think A17 currently supports automatically reading from Localization files that are inside mod folders. So, you can simply copy the content of the _Config/Localization.txt_ file to the Game's _Localization.txt_ file.  
 
+## Updating the modlet
+When updating the modlet to a newer version, you should always delete the old version completely before replacing it. 
+
+## SDX version
 [**SDX Version here**](https://github.com/manux32/7d2d_A17_sdx_mods).
 
 
-## Vids
-| [![new toys](http://img.youtube.com/vi/OKTsIO4xcEI/0.jpg)](https://youtu.be/OKTsIO4xcEI "A17 - New toys in action") |  
-|:---:|   
-|A17 - New toys in action|   
+# Vids
+| [![new toys](http://img.youtube.com/vi/OKTsIO4xcEI/0.jpg)](https://youtu.be/OKTsIO4xcEI "A17 - New toys in action") | [![monster beetle](http://img.youtube.com/vi/vpqBS0liAQM/0.jpg)](https://youtu.be/vpqBS0liAQM "Monster Beetle") | [![helico and Jet Pack](http://img.youtube.com/vi/7U7VUzD9iWM/0.jpg)](https://youtu.be/7U7VUzD9iWM "Helico and Jet Pack") | [![Pedal Gyro](http://img.youtube.com/vi/AM6buSS7lbs/0.jpg)](https://youtu.be/AM6buSS7lbs "Human-powered Gyrocopter") | [![MonoHog](http://img.youtube.com/vi/jue0A-AcKRA/0.jpg)](https://youtu.be/jue0A-AcKRA "Mono-Hog Prototype") |  
+|:---:|:---:|:---:|:---:|:---:|  
+|A17 - New toys in action|Monster Beetle|Helico and Jet Pack|Human-powered Gyrocopter|Mono-Hog Prototype|   
 
 # Terms of use  
 
@@ -163,9 +171,21 @@ This mod is public and free, the derived asset is not used in any commercial way
 ### To the 3D Assets creators 
 To all the creators of the 3D Assets I used to make the vehicles. See the list in the **Terms of Use** section above.
 
+### Mumpfy
+A very talented visual artist that is also a 7d2d modder. He retextured many of the coolest Vehicles of this mod to make them fit better in the mood of the game. They look awesome!
+And also for some modeling help and his eye for nailing the look of kick-ass vehicles like the Monster Beetle.
+He retextured the following vehicles so far: 
+- Dust2Death's RoadHog
+- The Beast
+- Helicopter
+- Monster Beetle
+
 ### Dust2Death 
 For doing all the ground work to find how to make a custom bike in A16, using the game unused Road Hog asset.
 He's the one that originally initiated the forum thread we currently use for the A16 mod. When I saw what he did with the RoadHog, it picked my interest. We shared a lot of knowledge and I then started to build this Vehicles mod: [**Custom Vehicles by Manux**](https://7daystodie.com/forums/showthread.php?87828-Custom-Vehicles-by-Manux-SDX)  
+
+### Guppy
+For his Guppy humor and for inviting me to his discord, where I met many other talented modders, and was lucky to have access to them for help with different modding topics.
 
 ### TormentedEmu
 For making the Horse vehicle of the Medieval Mod, which has been a great code reference for me when building this mod.  
@@ -174,17 +194,19 @@ Thanks for her [**MinibikeImpact**](https://github.com/TormentedEmu/7DTD-SDX-Mod
 Thanks also for her great [**MinibikeOpenUI mod**](https://github.com/TormentedEmu/7DTD-SDX-Mods/tree/master/MinibikeOpenUI), that let's us open UIs like the Map, the backpack, or any other Character UIs, while driving.  
 
 ### [HAL9000](https://www.youtube.com/channel/UCemM152wfyOsGCBaSkDaDCQ)
-**HAL9000** has been giving me great technical advice recently, helping me especially with understanding how to deal with the Multi Player code.  He is an amazing modder and the father of the SDX Launcher we use to build SDX mods for the game. He's a great mentor, thank you so much Master **HAL9000**!
+**HAL9000** has been giving me great technical advice towards the end of A16, helping me especially with understanding how to deal with the Multi Player code.  He is an amazing modder and the father of the SDX Launcher we use to build SDX mods for the game. He's a great mentor, thank you so much Master **HAL9000**!
 
-### Mumpfy
-A very talented visual artist that is also a 7d2d modder. He retextured some of the coolest Vehicles of this mod to make them fit better in the mood of the game. They look awesome!
-He retextured the following vehicles so far: 
-- Dust2Death's RoadHog
-- The Beast
-- Helicopter
+### Sphereii
+For the SDX Tutorials and for helping solve multiple SDX issues. SDX allowed me to go beyond simple XML modding, and start doing crazy stuff.
+
+### Chaos
+The new kid on the block. A very talented 3D artist who helped with the Monster Beetle modeling. I hope we continue working together in the future.
 
 ### Three8
 For adding underwater capabillities to all vehicles in the A16 mod. He is a top notch modder doing stuff like a fully working Elevator.
 
 ### JaxTeller718  
-For doing great sounds for Dust2Death's A16 Road Hog. I am also using those sounds on the Hell Goat Bike and the Loader.
+For doing great sounds for Dust2Death's A16 Road Hog. In the A16 full mod, I am also using those sounds on the Hell Goat Bike and the Loader.
+
+### Gareee
+Gareee, on the 7D2D forum, for making a better Jet Pack icon, and for great suggestions on how to tweak the A17 progression for vehicles.
