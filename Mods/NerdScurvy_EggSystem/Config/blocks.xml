@@ -14,7 +14,7 @@
     	<property name="IsTerrainDecoration" value="true"/>
     	<property name="Class" value="PlantGrowing"/>
     	<property name="PlantGrowing.Next" value="carsRandomHelper"/>
-    	<property name="PlantGrowing.GrowthRate" value="1600"/> <!-- setting 1 is erratic. Recommend 2+ for testing or use -->
+    	<property name="PlantGrowing.GrowthRate" value="800"/> <!-- setting 1 is erratic. Recommend 2+ for testing or use -->
     	<property name="PlantGrowing.FertileLevel" value="0"/>
     	<property name="PlantGrowing.IsRandom" value="true"/>
     	<property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -34,7 +34,7 @@
     	<property name="Extends" value="carEgg"/>
     	<property name="Model" value="Rocks/Rock04" param1="main_mesh"/>
     	<property name="PlantGrowing.Next" value="rockResource02"/>
-    	<property name="PlantGrowing.GrowthRate" value="1000"/>
+    	<property name="PlantGrowing.GrowthRate" value="600"/>
     </block>
 
     <block name="busEggSchool">
