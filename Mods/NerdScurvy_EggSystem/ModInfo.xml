@@ -4,6 +4,6 @@
         <Name value="Nerd's egg system mod" />
         <Description value="This modlet adds respawn 'eggs' for vehicles and resource rocks" />
         <Author value="NerdScurvy" />
-        <Version value="1.0.0" />
+        <Version value="1.1.0" />
     </ModInfo>
 </xml>

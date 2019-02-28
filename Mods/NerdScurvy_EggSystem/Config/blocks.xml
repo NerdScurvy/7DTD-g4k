@@ -6,17 +6,17 @@
     	<property name="Material" value="Mstone"/>
     	<property name="MaxDamage" value="500"/>
     	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
-    	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
-    	<property name="Mesh" value="models"/>
-    	<property name="Model" value="Rocks/Rock01" param1="main_mesh"/>
+    	<property name="Shape" value="New"/> 
+    	<property name="Mesh" value="cutoutmoveable"/>
+    	<property name="Model" value="rock01"/><property name="Texture" value="175"/>
     	<property name="OnlySimpleRotations" value="true"/>
     	<property name="ImposterDontBlock" value="true"/>
     	<property name="IsTerrainDecoration" value="true"/>
     	<property name="Class" value="PlantGrowing"/>
     	<property name="PlantGrowing.Next" value="carsRandomHelper"/>
-    	<property name="PlantGrowing.GrowthRate" value="1600"/> <!-- setting 1 is erratic. Recommend 2+ for testing or use -->
+    	<property name="PlantGrowing.GrowthRate" value="800"/> <!-- setting 1 is erratic. Recommend 2+ for testing or use -->
     	<property name="PlantGrowing.FertileLevel" value="0"/>
-    	<property name="PlantGrowing.IsRandom" value="true"/>
+    	<property name="PlantGrowing.IsRandom" value="false"/>
     	<property name="Collide" value="melee,bullet,arrow,rocket"/>
     	<drop event="Destroy" count="0"/>
     	<property name="FilterTags" value="foutdoor"/>
@@ -24,7 +24,7 @@
 
     <block name="rockEgg">
     	<property name="Extends" value="carEgg"/>
-    	<property name="Model" value="Rocks/Rock04" param1="main_mesh"/>
+    	<property name="Model" value="rock04" />
     	<property name="PlantGrowing.Next" value="rockResource"/>
     	<property name="PlantGrowing.GrowthRate" value="1000"/>
     </block>
@@ -32,9 +32,9 @@
 
     <block name="rockEgg02">
     	<property name="Extends" value="carEgg"/>
-    	<property name="Model" value="Rocks/Rock04" param1="main_mesh"/>
+    	<property name="Model" value="rock04" param1="main_mesh"/>
     	<property name="PlantGrowing.Next" value="rockResource02"/>
-    	<property name="PlantGrowing.GrowthRate" value="1000"/>
+    	<property name="PlantGrowing.GrowthRate" value="600"/>
     </block>
 
     <block name="busEggSchool">

@@ -188,7 +188,7 @@
 		<prefab_rule name="commercialGroup">
 			<prefab rule="diner_FastfoodGroup" max_count="2"/>
 			<prefab rule="gas_Station_Group" max_count="2"/>
-			<prefab rule="storeGroup" max_count="20"/>
+			<prefab rule="storeGroup" max_count="40"/>
 			<prefab name="carlot_01" max_count="1"/>
 			<prefab name="carlot_02" max_count="1"/>
 			<prefab name="skate_park_01"  max_count="1"/>
@@ -286,7 +286,7 @@
 		
 		<prefab_rule name="industrialGroup">
 			<prefab rule="skyscrapers" min_count="4" max_count="6"/>
-			<prefab rule="industrial_Bldgs" max_count="4"/>
+			<prefab rule="industrial_Bldgs" max_count="4" prob="1.0"/>
 			<prefab rule="industrial_JunkyardsLots" max_count="4"/>
 			<prefab rule="industrial_MpWasteBldgs" max_count="4"/>
 			<prefab rule="industrial_RubbleBldgs" />
@@ -335,7 +335,7 @@
 			<prefab name="xcostum_RestArea_Desert(by_Guppycur)" max_count="1" />
 			<prefab name="xcostum_Wooden_Palisade(by_LuckyStar)" max_count="1" />
 			<prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1" />
-			<prefab name="xcostum_RaceTrack(by_Guppycur)" max_count="1" />
+			<!--prefab name="xcostum_RaceTrack(by_Guppycur)" max_count="1" /-->
 			<prefab name="xcostum_BoxingGym(by_KamR)" max_count="1" />
 		    <prefab rule="GasStations" max_count="1" />
 			<prefab name="xcostum_shootingrange(by_magoli)" max_count="1" />
@@ -435,7 +435,7 @@
 			<prefab name="survivor_site_07" max_count="1" />
 			<prefab name="survivor_site_08" max_count="1" />
 			<prefab name="xcostum_Cabin(by_Sudo)" max_count="1" prob="0.4"/>		
-			<prefab name="xcostum_PersianMansion(by_saeid)" max_count="1" prob="0.3" />
+			<!--prefab name="xcostum_PersianMansion(by_saeid)" max_count="1" prob="0.3" /-->
 			<prefab name="xcostum_burialshrine(by_snake0567)" max_count="1" prob="0.2" />
 			<!--prefab name="xcostum_rave_factory(by_orak)" max_count="1" /   Flashing Light could cause seisures  -->			
 		</prefab_rule>
@@ -455,7 +455,7 @@
 			<prefab name="xcostum_icestadium(by_magoli)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_H0bbit(by_Limodor)" max_count="1" prob="0.2"/>
 			<!--prefab name="xcostum_Chernobyl(by_Maz_Burt)" max_count="1" prob="0.2"/ Goes boom -->
-			<prefab name="xcostum_MiniBikeRaceTrack(by_Spider)" max_count="1" prob="0.3" />	
+			<!--prefab name="xcostum_MiniBikeRaceTrack(by_Spider)" max_count="1" prob="0.3" /-->	
 			<prefab name="xcostum_nepa_base(by_Eihwaz)" max_count="1" prob="0.2" />	
 			<prefab name="xcostum_ancient_tomb(by_bigstep70)" max_count="1" prob="0.3" />
 			<prefab name="xcostum_wastelandtrain(by_incrediblejimmy)" max_count="1" prob="0.3" />
@@ -546,7 +546,7 @@
 		
 		<prefab_rule name="residentialNew_Apts">
 			<prefab name="apartment_adobe_red_5_flr" prob="0.6"/>
-			<prefab name="apartment_brick_6_flr" />
+			<prefab name="apartment_brick_6_flr" prob="0.8" />
 		</prefab_rule>
 		
 		<prefab_rule name="oldResidential_Bldgs"> <!-- Residential Old Zone Groups-->
@@ -712,17 +712,17 @@
 		</prefab_rule>
 		
 		<prefab_rule name="storeGroup">
-			<prefab name="store_gun_lg_01" prob="0.30"/>
-			<prefab name="store_hardware_lg_01" prob="0.30"/>
+			<prefab name="store_gun_lg_01" prob="0.50"/>
+			<prefab name="store_hardware_lg_01" prob="0.50"/>
 			<prefab name="store_book_lg_01" prob="0.2"/>
 			<prefab name="store_grocery_lg_01" prob="0.2"/>
 			<prefab name="store_bank_lg_01" porb="0.2"/>
 			<prefab name="store_laundry_01" prob="0.2" />
 			<prefab name="store_salon" prob="0.2" />
-			<prefab name="store_gun_sm_01" prob="0.34"/>
-			<prefab name="store_book_sm_01" prob="0.22"/>
+			<prefab name="store_gun_sm_01" prob="0.54"/>
+			<prefab name="store_book_sm_01" prob="0.52"/>
 			<prefab name="store_autoparts_01" prob="0.23"/>
-			<prefab name="store_hardware_sm_01" prob="0.34"/>
+			<prefab name="store_hardware_sm_01" prob="0.54"/>
 			<prefab name="store_grocery_sm_01" prob="0.25"/>
 			<prefab name="store_pharmacy_sm_01" />
 		</prefab_rule>
@@ -743,8 +743,8 @@
 			<prefab name="utility_waterworks_01" prob="0.25" max_count="1"/>
 			<prefab name="utility_electric_co_01" prob="0.25" max_count="1"/>
 			<prefab name="utility_refinery_01" prob="0.25" max_count="1"/>
-			<prefab name="factory_lg_01" prob="0.2" max_count="1"/>
-			<prefab name="factory_lg_02" prob="0.2" max_count="1"/>
+			<prefab name="factory_lg_01" prob="1" max_count="1"/>
+			<prefab name="factory_lg_02" prob="1" max_count="1"/>
 			<prefab name="settlement_01" />
 		</prefab_rule>
 		
@@ -875,40 +875,132 @@
 -->
 
 	<terrain_generators>
-		<!--
-		<terrain_generator name="vanilla2" base_height="32" water_level="38">
-			<module name="HM" type="NoiseFromImage">
-				<property name="metersPerPixel" value="15.14"/>
-				<property name="imageFile" value="sarek.png"/>
+		
+		<terrain_generator name="vanilla2" base_height="0" water_level="17">
+			<module name="Spheres Node-28012" type="Spheres">
+			   <property name="frequency" value="7E-05"/>
 			</module>
-			<module name="BIAS" type="BiasOutput">
-				<property name="sourceModule" value="HM"/>
-				<property name="bias" value="-30"/>
+			<module name="Translate Input Modifier Node13064" type="TranslateInput">
+			   <property name="sourceModule" value="Spheres Node-28012"/>
+			   <property name="x" value="-4095"/>
+			   <property name="y" value="0"/>
+			   <property name="z" value="-4096"/>
 			</module>
-			<output module="BIAS"/>
+			<module name="Spheres Node-29410" type="Spheres">
+			   <property name="frequency" value="-7E-05"/>
+			</module>
+			<module name="Translate Input Modifier Node13066" type="TranslateInput">
+			   <property name="sourceModule" value="Spheres Node-29410"/>
+			   <property name="x" value="-4095"/>
+			   <property name="y" value="0"/>
+			   <property name="z" value="-4096"/>
+			</module>
+			<module name="Smaller Output Modifier Node13058" type="SmallerOutput">
+			   <property name="sourceModule1" value="Translate Input Modifier Node13064"/>
+			   <property name="sourceModule2" value="Translate Input Modifier Node13066"/>
+			</module>
+			<module name="Fast Turbulence Node13036" type="FastTurbulence" seed_additive="2">
+			   <property name="frequency" value="-0.0012"/>
+			   <property name="power" value="750"/>
+			   <property name="roughness" value="18"/>
+			   <property name="sourceModule" value="Smaller Output Modifier Node13058"/>
+			</module>
+			<module name="Fast Ridged Multi Node13034" type="FastRidgedMultifractal" seed_additive="0">
+			   <property name="frequency" value="9E-05"/>
+			   <property name="noisequality" value="2"/>
+			   <property name="lacunarity" value="1.88"/>
+			   <property name="octavecount" value="4"/>
+			</module>
+			<module name="Perlin Noise Node13042" type="Perlin" seed_additive="0">
+			   <property name="frequency" value="0.00021"/>
+			   <property name="persistence" value="-0.4"/>
+			   <property name="noisequality" value="2"/>
+			   <property name="lacunarity" value="2.65"/>
+			   <property name="octavecount" value="4"/>
+			</module>
+			<module name="Add Modifier Node13026" type="Add">
+			   <property name="sourceModule1" value="Fast Ridged Multi Node13034"/>
+			   <property name="sourceModule2" value="Perlin Noise Node13042"/>
+			</module>
+			<module name="Scale Bias Modifier Node13046" type="ScaleBiasOutput">
+			   <property name="sourceModule" value="Add Modifier Node13026"/>
+			   <property name="scale" value="0.83"/>
+			   <property name="bias" value="-0.5"/>
+			</module>
+			<module name="Fast Billow Node13032" type="FastBillow" seed_additive="0">
+			   <property name="frequency" value="0.0007"/>
+			   <property name="persistence" value="-1.47"/>
+			   <property name="noisequality" value="1"/>
+			   <property name="lacunarity" value="0"/>
+			   <property name="octavecount" value="2"/>
+			</module>
+			<module name="Fast Turbulence Node13038" type="FastTurbulence" seed_additive="1">
+			   <property name="frequency" value="0.002"/>
+			   <property name="power" value="400"/>
+			   <property name="roughness" value="14"/>
+			   <property name="sourceModule" value="Fast Billow Node13032"/>
+			</module>
+			<module name="Scale Bias Modifier Node13050" type="ScaleBiasOutput">
+			   <property name="sourceModule" value="Fast Turbulence Node13038"/>
+			   <property name="scale" value="0.33"/>
+			   <property name="bias" value="0.17"/>
+			</module>
+			<module name="Clamp Modifier Node13028" type="ClampOutput">
+			   <property name="sourceModule" value="Scale Bias Modifier Node13050"/>
+			   <property name="bounds" value="0.32,0.93"/>
+			</module>
+			<module name="Scale Bias Modifier Node13052" type="ScaleBiasOutput">
+			   <property name="sourceModule" value="Add Modifier Node13026"/>
+			   <property name="scale" value="0.68"/>
+			   <property name="bias" value="-0.3"/>
+			</module>
+			<module name="Clamp Modifier Node13030" type="ClampOutput">
+			   <property name="sourceModule" value="Scale Bias Modifier Node13052"/>
+			   <property name="bounds" value="-0.26,1"/>
+			</module>
+			<module name="Select Modifier Node13056" type="Select">
+			   <property name="controlModule" value="Scale Bias Modifier Node13046"/>
+			   <property name="sourceModule1" value="Clamp Modifier Node13028"/>
+			   <property name="sourceModule2" value="Clamp Modifier Node13030"/>
+			   <property name="bounds" value="0.06,3.37"/>
+			   <property name="edgeFalloff" value="0.1"/>
+			</module>
+			<module name="Scale Bias Modifier Node13048" type="ScaleBiasOutput">
+			   <property name="sourceModule" value="Select Modifier Node13056"/>
+			   <property name="scale" value="1.16"/>
+			   <property name="bias" value="-0.2"/>
+			</module>
+			<module name="Select Modifier Node13054" type="Select">
+			   <property name="controlModule" value="Fast Turbulence Node13036"/>
+			   <property name="sourceModule1" value="Scale Bias Modifier Node13048"/>
+			   <property name="sourceModule2" value="Fast Turbulence Node13036"/>
+			   <property name="bounds" value="-1.15,0.18"/>
+			   <property name="edgeFalloff" value="0.2"/>
+			</module>
+			<output module="Select Modifier Node13054"/>
 		</terrain_generator>
-		-->
-	<terrain_generator name="vanilla" base_height="32" water_level="38">
+		
+		<terrain_generator name="vanilla" base_height="32" water_level="38">
 			<!-- Total Module Count [62] -->
 			<!--  Module Block: Main Land  [12] modules -->
 			<module name="lnd_Fn" type="FastNoise" seed_additive="1024">
-				<property name="frequency" value="0.00625"/>
-				<property name="persistence" value="0.5"/>
+				<property name="frequency" value="0.00425"/>
+				<property name="persistence" value="0.4"/>
 				<property name="octave" value="1"/>
 			</module>
 			<module name="lnd_Fn1" type="FastNoise" seed_additive="1024">
-				<property name="frequency" value="0.00625"/>
-				<property name="persistence" value="0.25"/>
+				<property name="frequency" value="0.00425"/>
+				<property name="persistence" value="0.2"/>
 				<property name="octave" value="1"/>
 			</module>
 			<module name="lnd_Cu" type="CurveOutput">
-				<property name="sourceModule" value="lnd_Fn"/>
+				<property name="sourceModule" value="lnd_Fn1"/>
 				<property name="source_module1" value="lnd_Fn1"/>
 				<property name="controlPoints" value="-4.0,0.05; -3.0,-0.05; -2.00,-0.1; -1.00,0.05; -0.1,-0.05; 1.00,0.05; 2.00,-0.05; 3.0,0.0; 4.0,0.05"/>
 				<!--<property name="controlPoints" value="-2.00,-0.1; -1.75,-0.05; -1.50,0.0; -1.25,0.05; -1.00,0.05; -0.75,0.05; -0.50,0.0; -0.05,-0.05; 0.00,-0.05; 0.25,0.0; 0.50,0.05; 0.75,0.1; 1.00,0.05; 1.25,0.0; 1.50,-0.05; 1.75,-0.1; 2.00,-0.05"/>-->
 			</module>
 			<module name="lnd_Cu1" type="CurveOutput">
-				<property name="sourceModule" value="lnd_Fn"/>
+				<property name="sourceModule" value="lnd_Fn1"/>
 				<property name="source_module1" value="lnd_Fn1"/>
 				<property name="controlPoints" value="-4.01,0.05; -3.01,-0.05; -2.01,-0.1; -1.01,0.05; -0.11,-0.05; 1.01,0.05; 2.01,-0.05; 3.01,0.0; 4.01,0.05"/>
 				<!--<property name="controlPoints" value="-2.00,-0.1; -1.75,-0.05; -1.50,0.0; -1.25,0.05; -1.00,0.05; -0.75,0.05; -0.50,0.0; -0.05,-0.05; 0.00,-0.05; 0.25,0.0; 0.50,0.05; 0.75,0.1; 1.00,0.05; 1.25,0.0; 1.50,-0.05; 1.75,-0.1; 2.00,-0.05"/>-->
@@ -1304,15 +1396,15 @@
 			<module name="biomeOutput" type="BiomeIDMapper">
 				<property name="sourceModule" value="clampOutput"/>
 				<property name="biomemap0.Name" value="pine_forest"/>
-				<property name="biomemap0.Range" value="0.2,0.5"/>
+				<property name="biomemap0.Range" value="0.2,0.8"/>
 				<property name="biomemap1.Name" value="snow"/>
 				<property name="biomemap1.Range" value="0,0.2"/>
 				<property name="biomemap2.Name" value="wasteland"/>
-				<property name="biomemap2.Range" value="0.5,0.7"/>
+				<property name="biomemap2.Range" value="0.8,0.81"/>
 				<property name="biomemap3.Name" value="burnt_forest"/>
-				<property name="biomemap3.Range" value="0.7,0.8"/>
+				<property name="biomemap3.Range" value="0.81,0.77"/>
 				<property name="biomemap4.Name" value="desert"/>
-				<property name="biomemap4.Range" value="0.8,1.1"/>
+				<property name="biomemap4.Range" value="0.77,1.1"/>
 			</module>
 			
 			<output module="biomeOutput"/>

@@ -368,4 +368,49 @@
 
 
 	</append>
+	
+	<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/LocalCrouchVolumeScale/@value">0.5</set>
+	<set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/LocalCrouchVolumeScale/@value">0.5</set>
+	<set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/LocalCrouchVolumeScale/@value">0.5</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/LocalCrouchVolumeScale/@value">0.5</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/LocalCrouchVolumeScale/@value">0.5</set>
+	<set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/LocalCrouchVolumeScale/@value">0.5</set>
+
+	<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/NoiseScale/@value">0.2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/NoiseScale/@value">0.2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/NoiseScale/@value">0.2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/NoiseScale/@value">0.2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/NoiseScale/@value">0.2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/NoiseScale/@value">0.2</set>
+	
+	<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/Noise/@range">2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/Noise/@volume">5</set>
+	<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/Noise/@heat_map_strength">0.005</set>
+	<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/Noise/@heat_map_time">5</set>
+
+	<set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/Noise/@range">2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/Noise/@volume">4</set>
+	<!--<set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/Noise/@heat_map_strength">0.005</set>
+	<set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/Noise/@heat_map_time">5</set>-->
+
+	<set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/Noise/@range">2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/Noise/@volume">2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/Noise/@heat_map_strength">0.005</set>
+	<set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/Noise/@heat_map_time">5</set>	
+	
+	<set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/Noise/@range">2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/Noise/@volume">1</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/Noise/@heat_map_strength">0.005</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/Noise/@heat_map_time">5</set>		
+	
+	<set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/Noise/@range">2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/Noise/@volume">1</set>
+	<set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/Noise/@heat_map_strength">0.005</set>
+	<set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/Noise/@heat_map_time">5</set>			
+	
+	<set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/Noise/@range">2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/Noise/@volume">2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/Noise/@heat_map_strength">0.005</set>
+	<set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/Noise/@heat_map_time">5</set>			
+	
 </configs>

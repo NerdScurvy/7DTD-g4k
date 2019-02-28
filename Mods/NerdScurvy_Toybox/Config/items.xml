@@ -27,7 +27,7 @@
 				<property name="Sound_start" value="repair_block" />
 				<property name="Delay" value="0.3" />
 				<property name="Upgrade_action_sound" value="swoosh" />
-				<property name="Allowed_upgrade_items" value="magicWand" />
+				<property name="Allowed_upgrade_items" value="magicWand,windowTint" />
 			</property>
 
 			<effect_group name="Base Effects">

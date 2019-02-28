@@ -35,6 +35,7 @@
 
 	<append xpath="/lootcontainers/lootcontainer[@id='42']"> <!-- Gunsafe -->
 		<item group="commonSchematicsModGun" count="1" prob="0.35"/>
+		<item name="modGunSoundSuppressorSilencerSchematic" count="1" prob="0.1"/>
 	</append>
 
 	<append xpath="/lootcontainers/lootcontainer[@id='50']"> <!-- shotgun Messiah -->
@@ -43,6 +44,7 @@
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='43']"> <!-- Lockers -->
 		<item group="commonSchematicsModGun" count="1" prob="0.7"/>
+		<item name="modGunSoundSuppressorSilencerSchematic" count="1" prob="0.1"/>
 	</append>
 
 	

@@ -224,6 +224,13 @@
       <ingredient name="resourceScrapPolymers" count="3" />
 	  <ingredient name="glassCTRSheet" count="1" />
     </recipe>	
+
+    <recipe name="windowTint" count="1">
+      <ingredient name="resourceWood" count="1" />
+    </recipe>	
+
+	
+	
 	
   </append>
 </configs>
